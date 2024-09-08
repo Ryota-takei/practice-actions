@@ -3,7 +3,12 @@ on:
   workflow_dispatch:
     inputs:
       greeting:
-        type: string
+        type: choice
+        options:
+          - hello
+          - こんにちは
+          - bonjour
+          - hallo
         default: hello
         required: true
         description: A cheerful word
