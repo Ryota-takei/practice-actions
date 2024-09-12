@@ -8,3 +8,4 @@ jobs:
     - run: echo "Hello"
     - run: echo "word"
       if: ${{ failure() }}
+      # L8は実行されない
