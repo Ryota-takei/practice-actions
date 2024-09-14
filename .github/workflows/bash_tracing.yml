@@ -1,0 +1,12 @@
+name: Bach tracing
+on: push
+jobs:
+  log:
+    name: puts Log
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trace
+        run: |
+            set -x
+            date
+            hostname
