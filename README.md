@@ -1,1 +1,1 @@
-github-acion の練習用です
+github-acion の練習用です.
